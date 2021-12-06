@@ -1,0 +1,367 @@
+uname -r
+apt-get update
+apt-get upgrade
+apt-get install build-essential
+apt-get install linux-headers-$(uname -r) dkms
+apt-get install linux-headers-$(uname -r)
+reboot
+apt-get update
+apt-get upgrade
+apt-get autoremove
+apt-get upgrade
+apt-get install buils-essential
+apt-get install build-essential
+apt-get install build-essential
+apt-get update
+apt-get upgrade
+uname -r
+m-a prepare
+apt-get install module-assistant
+nano /etc/apt/sources.list
+apt-get update
+apt-get upgrade
+apt-get install module-assistant
+apt-get install build-essential
+nano /etc/apt/sources.list
+apt-get update
+nano /etc/apt/sources.list
+apt-get update
+apt-get upgrade
+apt-get install build-essential
+apt-get install module-assistant
+apt-get install xserver-xorg xserver-xorg-core
+m-a prepare
+mkdir -p /mnt/cdrom
+mount /dev/cdrom /mnt/cdrom/
+cd /mnt/cdrom/
+ls
+./VBoxLinuxAdditions.run 
+./VBoxLinuxAdditions.run --nox11
+reboot
+add-apt-repository ppa:webupd8team/java
+sudo add-apt-repository ppa:webupd8team/java
+echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty "main" | tee /etc/apt/sources.list.d/webupd8team-java.list
+echo "deb http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" | tee /etc/apt/sources.list.d/webupd8team-java.list
+echo "deb src http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" | tee -a /etc/apt/sources.list.d/webupd8team-java.list
+apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys EEA14866
+apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys EEA14886
+apt-get update
+echo "deb src http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" | tee /etc/apt/sources.list.d/webupd8team-java.list
+apt-get update
+apt-get install oracle-java8-installer
+nano /etc/apt/sources.list
+java-version
+echo "deb-src http://ppa.launchpad.net/webupd8team/java/ubuntu trusty main" | tee /etc/apt/sources.list.d/webupd8team-java.list
+apt-get update
+apt-get install oracle-java8-installer
+apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys EEA14886
+apt-get install oracle-java8-installer
+apt-get update
+apt-key adv --keyserver keyserver.ubuntu.com --recv-keys C2518248EEA14886
+apt-get update
+apt-get install oracle-java8-installer
+apt-get install oracle-java8-installer
+apt-get update
+apt-get upgrade
+apt-get install oracle-java8-installer
+/etc/apt/sources.list.d/
+ls
+ls- l
+cd /etc/apt/sources.list
+cd /etc/apt/sources.list.d/
+ls
+rm webupd8team-java.list 
+ls
+apt-get update
+add-apt-repository ppa:webupd8team/java
+apt-get install software-properties-common
+apt-get update
+add-apt-repository ppa:webupd8team/java
+apt-get update
+aptget install oracle-java8-installer
+apt-get install oracle-java8-installer
+apt-get install oracle-java11-installer
+apt-get install default-jdk
+java -version
+ls
+cd /etc/environment
+cat /etc/environment
+nano /etc/environment
+cd /etc/
+ll
+ls
+nano environment
+nano environment.d/
+cd environment
+cd environment.d/
+ls
+cd ..
+ls
+groupadd tomcat
+shutdown
+useradddd -s /bin/false -g tomcat -d /opt/tomcat tomcat
+useraddd -s /bin/false -g tomcat -d /opt/tomcat tomcat
+useradd -s /bin/false -g tomcat -d /opt/tomcat tomcat
+cd /tmp
+ll
+ls
+curl
+apt-get install curl
+curl -0 https://dlcdn.apacha.org/tomcat/tomcat-10/v10.0.12/bin/apache-tomcat-10.0.12.tar.gz
+curl -0 https://dlcdn.apache.org/tomcat/tomcat-10/v10.0.12/bin/apache-tomcat-10.0.12.tar.gz
+curl -O https://dlcdn.apache.org/tomcat/tomcat-10/v10.0.12/bin/apache-tomcat-10.0.12.tar.gz
+ls
+mkdir /opt/tomcat
+tar xzvf apache-tomcat-10.0.12.tar.gz  -C /opt/tomcat/ --strip-components
+tar xzvf apache-tomcat-10.0.12.tar.gz  -C /opt/tomcat/ --strip-components=1
+cd /opt/tomcat/
+ls
+chgrp  -R tomcat /opt/tomcat
+ls
+cd ..
+ls
+ls -l
+cd tomcat/
+chmod -R g+f conf
+chmod -R g+r conf
+chmod g+x conf
+chown -R tomcat webapps/work/temp/logs/
+update-java-alternative -l
+update-java-alternatives -l
+nano /etc/systemd/system/tomcat.service
+ifconfig
+apt-get install ssh
+ifconfig
+ping 8.8.8.8
+ping 8.8.8.8
+service networking restart
+ping 8.8.8.8
+ping 8.8.8.8
+ping 8.8.8.8
+ping 8.8.8.8
+ping 8.8.8.8
+ping 8.8.8.8
+reboot
+ifconfig
+exit
+ifconfig
+nano /etc/ssh/sshd_config 
+exit
+ifconfig
+reboot
+ll
+nano /etc/systemd/system/tomcat.service
+nano /etc/systemd/system/tomcat.service
+systemctl daemon-reload
+systemctl start tomcat
+systemctl status tomcat.service
+systemctl status tomcat.service
+systemctl status tomcat.service
+systemctl stop tomcat.service
+systemctl status tomcat.service
+systemctl status tomcat.service
+nano /etc/systemd/system/tomcat.service
+cd /opt/tomcat/bin/
+ls
+systemctl daemon reload
+systemctl daemon-reload
+systemctl start tomcat
+systemctl status tomcat
+update-java-alternatives -l
+systemctl status tomcat
+systemctl status tomcat
+cd /opt/tomcat/
+ls
+ls -l
+chown -R webapps/work/temp/logs/
+chown -R webapps/
+chown -R webapps
+chown -R tomcat webapps/work/temp/logs/
+chown -R tomcat webapps
+chown -R tomcat work
+chown -R tomcat temp
+chown -R tomcat logs
+ls -l
+systemctl status tomcat
+systemctl restart tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl start tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl status tomcat
+ls -l
+cd logs/
+ls -l
+cat catalina.out 
+java -version
+nano /etc/systemd/system/tomcat.service 
+nano /etc/environment
+echo %JAVA_HOME
+source /etc/environment
+echo %JAVA_HOME
+nano /etc/environment
+nano /etc/environment
+java -version
+ls /usr/lib/jvm/
+ls -l /usr/lib/jvm/
+nano ~/.bashrc
+nano ~/.bashrc
+source ~/.bashrc
+systemctl status tomcat
+systemctl stop tomcat
+systemctl start tomcat
+systemctl status tomcat
+echo $JAVA_HOME
+systemctl status tomcat
+ls -l
+cat catalina.out 
+ls -l
+systemctl status tomcat
+systemctl stop tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl daemon-reload
+systemctl start tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl status tomcat
+systemctl status tomcat
+vi catalina.out 
+sudo nano /etc/systemd/system/tomcat.service
+nano /etc/systemd/system/tomcat.service
+systemctl daemon-reload
+systemctl stop tomcat
+systemctl status tomcat
+systemctl start tomcat
+systemctl status tomcat
+systemctl enable tomcat
+ls -l
+nano /opt/tomcat/conf/tomcat-users.xml 
+nano /opt/tomcat/webapps/manager/META-INF/context.xml
+systemctl restart tomcat
+systemctl status tomcat
+shutdown
+ifconfig
+nano /etc/ssh/sshd_config 
+netstat
+netstat -p 22
+netstat -a
+netstat -ptcp
+netstat -p tcp
+netstat -a 
+service sshd status
+systemctl status tomcat
+ifconfig
+nano /etc/network/interfaces
+reboot
+ifconfig
+ping 192.168.10.1
+ping 192.168.10.2
+nano /etc/network/interfaces
+nano /etc/network/interfaces
+reboot
+ifconfig
+ping 192.168.10.2
+ping 192.168.10.1
+ping 192.168.10.1
+shutdown
+ifconfig
+systemctl restart networking
+ifconfig
+reboot
+ifconfig
+ping 192.168.0.15
+nano /etc/network/interfaces
+systemctl restart networking
+ifconfig
+ifconfig
+reboot
+ifconfig
+cd /home/julian/
+ls -l
+mv poc-jsp-mysql-crud.war /opt/tomcat/webapps/
+cd /opt/tomcat/webapps/
+ls -l
+chown tomcat poc-jsp-mysql-crud
+ls -l
+chown tomcat poc-jsp-mysql-crud.war 
+ls -l
+service tomcat restart
+service tomcat status
+ifconfig
+wget https://dev.mysql.com/get/mysql-apt-config_0.8.15-1_all.deb
+sudo dpkg -i mysql-apt-config_0.8.15-1_all.deb
+ll
+ls -l
+dpkg -i mysql-apt-config_0.8.15-1_all.deb
+dpkg -i mysql-apt-config_0.8.15-1_all.deb
+sudo apt update
+apt update
+apt install -y mysql-community-server
+systemctl status mysql
+systemctl restart tomcat
+systemctl status  tomcat
+reboot
+systemctl status  tomcat
+systemctl status mysql
+ping 192.168.20.1
+reboot
+ifconfig
+nano /etc/network/interfaces
+reboot
+ifconfig
+ifconfig
+ping 192.168.10.1
+systemctl status  tomcat
+poweroff
+systemctl status  tomcat
+ifconfig
+nano /opt/tomcat/conf/tomcat-users.xml 
+nano /opt/tomcat/conf/tomcat-users.xml 
+systemctl status  tomcat
+systemctl stop tomcat
+systemctl status  tomcat
+systemctl start  tomcat
+systemctl status  tomcat
+ping 192.168.20.4
+ping 192.168.20.1
+ping 192.168.20.4
+ifconfig
+ping 192.168.20.4
+poweroff
+nano /etc/ssh/sshd_config 
+ifconfig
+poweroff
+cd
+cd /etc/ssh/sshd_config 
+nano /etc/ssh/sshd_config 
+reboot
+ifconfig
+nano /etc/network/interfaces
+reboot
+history -w ~/history.txt
